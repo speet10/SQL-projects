@@ -1,0 +1,1 @@
+SELECT products.product_name AS product, suppliers.company_name AS company FROM suppliers INNER JOIN products ON products.supplier_id=suppliers.supplier_id ORDER BY product ASC;
